@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Gear E-Commerce</title>
+    <!-- Link ke Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #1e1f21; 
+            color: #ffffff;
+        }
+        ::-webkit-scrollbar {
+            display: none;
+        }
+        .navbar {
+            background-color: #1e1f21; 
+        }
+        .navbar-dark .navbar-nav .nav-link {
+            color: #ffffff; 
+        }
+        .navbar-dark .navbar-nav .nav-link:hover {
+            color: #00b0f0; 
+        }
+        .jumbotron {
+            background-color: #27282B; 
+            color: #ffffff; 
+        }
+        .card {
+            border: 2px solid #27282B;
+            border-radius: 10px;
+            background-color: #1e1f21; 
+        }
+        .card-body {
+            background-color: #1e1f21; 
+            color: #ffffff;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+        .card-title {
+            color: #00b0f0; 
+        }
+        .btn-primary {
+            background-color: #00b0f0; 
+            border-color: #00b0f0;
+        }
+        .btn-primary:hover {
+            background-color: #0f5393; 
+            border-color: #0f5393;
+        }
+        .footer {
+            background-color: #27282B; 
+            padding: 20px;
+            text-align: center;
+            color: #ffffff; 
+        }
+        ::selection {
+            background-color: #00b0f0; 
+            color: #1e1f21; 
+        }
+        .card-img-top {
+            background-color: #27282B;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Official Gaming Gear</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron text-center">
+        <h1 class="display-4">Perlengkapan Gaming Terbaik!</h1>
+        <p class="lead">Temukan perlengkapan gaming berkualitas tinggi untuk pengalaman bermain yang luar biasa.</p>
+        <a href="#" class="btn btn-primary btn-lg" style="color: #1e1f21; border-radius: 100px;">Belanja Sekarang</a>
+    </div>
+
+    <!-- Produk Cards -->
+    <div class="container">
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://resource.logitech.com/content/dam/gaming/en/products/g402/gallery-1.png" class="card-img-top" alt="Mouse Gaming">
+                    <div class="card-body">
+                        <h5 class="card-title">Logitech G402 Hyperion Fury</h5>
+                        <p class="card-text">Desain klasik dengan bahan ringan dan pegangan karet, sensor optik dengan teknologi Logitech Delta Zero, kecepatan pelacakan 500 IPS, 8 tombol program, 4 pengaturan DPI, dan laju laporan 1 ms.</p>
+                        <a href="https://www.logitechg.com/en-nz/products/gaming-mice/g402-hyperion-fury-fps-gaming-mouse.910-004070.html?srsltid=AfmBOorm2DgdnKpd8d_FOnhWfAdmSjCZV-rB47w3yiC-Drwuc8nwwHcW" 
+                           class="btn btn-primary" style="color: #1e1f21; border-radius: 100px;">Beli Sekarang</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://resource.logitech.com/content/dam/gaming/en/products/g733/gallery/g733-white-gallery-1.png" class="card-img-top" alt="Headset Gaming">
+                    <div class="card-body">
+                        <h5 class="card-title">Logitech G733</h5>
+                        <p class="card-text">Headset gaming nirkabel dirancang untuk kinerja dan kenyamanan, dilengkapi surround sound, filter suara, dan pencahayaan terbaik agar kamu terlihat, terdengar, dan bermain lebih keren.</p>
+                        <a href="https://www.logitechg.com/id-id/products/gaming-audio/g733-rgb-wireless-headset.981-000886.html?srsltid=AfmBOoo96ZJMq-AP-yom_6oQTHQ2SHOpunkeOZ702TrL7LKe1XdLs8fR" 
+                           class="btn btn-primary" style="color: #1e1f21; border-radius: 100px;">Beli Sekarang</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://resource.logitech.com/content/dam/gaming/en/non-braid/flying-v-mx-g512/g512-keyboard-gallery-2-2x-nb.png" class="card-img-top" alt="Keyboard Gaming">
+                    <div class="card-body">
+                        <h5 class="card-title">Logitech G512 Carbon</h5>
+                        <p class="card-text">Keyboard gaming berkinerja tinggi dengan pilihan switch mekanik GX, laju laporan 1 ms, USB passthrough, LIGHTSYNC RGB, dan konstruksi aluminium alloy untuk ketahanan maksimal.</p>
+                        <a href="https://www.logitechg.com/en-us/products/gaming-keyboards/g512-mechanical-gaming-keyboard.html?srsltid=AfmBOoojxYhY020-AEi1T6Vb96ARobPgLH2iqqp4oCyAm_lTsj7CoQGt" 
+                           class="btn btn-primary" style="color: #1e1f21; border-radius: 100px;">Beli Sekarang</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://dl.razerzone.com/src2/5704/5704-1-EN-v8.png" class="card-img-top" alt="Headset Gaming">
+                    <div class="card-body">
+                        <h5 class="card-title">Razer Kraken V3 Pro</h5>
+                        <p class="card-text">Headset gaming PC nirkabel dengan Razer HyperSense, menghadirkan sensasi haptic agar Anda bisa merasakan apa yang didengar, membawa pengalaman gaming lebih intens dan nyata.</p>
+                        <a href="https://www.razer.com/gaming-headsets/razer-kraken-v3-pro?srsltid=AfmBOop10zpXXo-rVzZoqgrMj7vacIGZwM9KSdNadozdHJ6MBL3rVjdb" 
+                           class="btn btn-primary" style="color: #1e1f21; border-radius: 100px;">Beli Sekarang</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 5 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://assets.razerzone.com/eeimages/support/products/1179/1179_blackwidow_chroma_v2_alt.png" class="card-img-top" alt="Keyboard Gaming">
+                    <div class="card-body">
+                        <h5 class="card-title">Razer BlackWidow Chroma V2</h5>
+                        <p class="card-text">Keyboard mekanik gaming pertama kali diluncurkan 2010, dengan Razer™ Mechanical Switch dan Razer Chroma™ backlighting, memberi kebebasan ekspresi dengan kontrol pencahayaan.</p>
+                        <a href="https://www.razer.com/eu-en/gaming-keyboards/Razer-BlackWidow-Chroma-V2/RZ03-02032800-R3N1?srsltid=AfmBOorcMEtyQzGb0v3TlelCFNszJoNavww51IqLJ5DWQQSLeJlx4jiZ" 
+                           class="btn btn-primary" style="color: #1e1f21; border-radius: 100px;">Beli Sekarang</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 6 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://assets.razerzone.com/eeimages/support/products/1577/ee_photo.png" class="card-img-top" alt="Mouse Gaming">
+                    <div class="card-body">
+                        <h5 class="card-title">Razer Viper Ultimate</h5>
+                        <p class="card-text">Tidak semua mouse nirkabel sama. Kenali mouse gaming dengan teknologi nirkabel super cepat, 20.000 DPI untuk pelacakan presisi tinggi, switch optik cepat, dan daya tahan hingga 70 jam.</p>
+                        <a href="https://www.razer.com/mena-en/gaming-mice/razer-viper-ultimate?srsltid=AfmBOork6PCEZSibvg1cjLQ_g-_CI0skKYeqc1KtNrHirNxDN9IuIPy-" 
+                           class="btn btn-primary" style="color: #1e1f21; border-radius: 100px;">Beli Sekarang</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 7 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://dlcdnwebimgs.asus.com/gain/145896AC-B462-4466-A1FE-935F085741F3/w717/h525" class="card-img-top" alt="Keyboard Gaming">
+                    <div class="card-body">
+                        <h5 class="card-title">ROG Azoth</h5>
+                        <p class="card-text">Keyboard gaming kustomisasi ROG Azoth 75%, gasket mount, busa peredam tiga lapis, switch ROG NX, stabilizer, keycap PBT doubleshot, tri-mode SpeedNova 2,4 GHz, OLED, kenop kontrol, dan dukungan Mac.</p>
+                        <a href="https://rog.asus.com/id/keyboards/keyboards/aura-rgb/rog-azoth-model/" 
+                           class="btn btn-primary" style="color: #1e1f21; border-radius: 100px;">Beli Sekarang</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 8 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://dlcdnwebimgs.asus.com/gain/CC324895-9E79-43D2-93A3-F831273E21F9/w717/h525" class="card-img-top" alt="Mouse Gaming">
+                    <div class="card-body">
+                        <h5 class="card-title">ROG Strix Impact III</h5>
+                        <p class="card-text">ROG Strix Impact III adalah mouse gaming RGB kabel semi-ambidextrous 59g dengan sensor 12.000 dpi, latensi klik nol, soket switch dapat ditukar, ROG Micro Switches, Paracord, dan mouse feet PTFE.</p>
+                        <a href="https://rog.asus.com/id/mice-mouse-pads/mice/ambidextrous/rog-strix-impact-iii-model/" 
+                           class="btn btn-primary" style="color: #1e1f21; border-radius: 100px;">Beli Sekarang</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 9 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://dlcdnwebimgs.asus.com/gain/28EFE950-BAD3-4B17-9C43-05F86CA7B6B5/w717/h525" class="card-img-top" alt="Headset Gaming">
+                    <div class="card-body">
+                        <h5 class="card-title">ROG Delta S</h5>
+                        <p class="card-text">Headset gaming USB-C ringan dengan mic AI noise-canceling, teknologi render MQA, Hi-Res ESS 9281 QUAD DAC, RGB, kompatibel dengan PC, Nintendo Switch™ & PS5.</p>
+                        <a href="https://rog.asus.com/id/headsets-audio/headsets/usb-headsets/rog-delta-s-model/" 
+                           class="btn btn-primary" style="color: #1e1f21; border-radius: 100px;">Beli Sekarang</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2024 Gaming Gear Shop. All Rights Reserved.</p>
+    </div>
+
+    <!-- Link ke Bootstrap JS dan jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
